@@ -57,12 +57,12 @@
     font-size: 1.5rem;
 }
 
-#submit-btn {
+#submit-btn,
+#change-C-btn,
+#change-F-btn {
     font-size: 1.1rem;
     font-weight: bold;
 
-    height: 50px;
-    width: 90px;
     padding: 10px;
 
     border: 3px solid black;
@@ -71,12 +71,33 @@
     transition: transform 0.2s ease;
 }
 
-#submit-btn:hover {
+#submit-btn {
+    height: 50px;
+    width: 90px;
+}
+
+#change-C-btn,
+#change-F-btn {
+    height: 50px;
+    width: 180px;
+
+    margin-left: 10px;
+}
+
+#submit-btn:hover,
+#change-C-btn:hover,
+#change-F-btn:hover {
     transform: translateY(-3px);
     cursor: pointer;
     background-color: #dcebf4;
     border-color: rgb(58, 58, 58);
     color: rgb(58, 58, 58);
+}
+
+#submit-btn:active,
+#change-C-btn:active,
+#change-F-btn:active {
+    transform: scale(0.98);
 }
 
 #nav img {
