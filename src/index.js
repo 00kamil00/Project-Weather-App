@@ -22,7 +22,7 @@ async function getApi(city) {
         temperatureContainer.textContent = `${temperature}°F`
         // console.log(temperature)
 
-        const conditions = weatherData.days[1].conditions
+        const conditions = weatherData.days[0].conditions
         conditionsContainer.textContent = conditions
         // console.log(conditions)
 
